@@ -60,69 +60,38 @@
 
 # 👋 Contribution guidelines
 
-This document describes how to contribute to ReVanced Patches.
+This document describes how to contribute to ReVanced Patches template.
 
 ## 📖 Resources to help you get started
 
-* The [documentation](https://github.com/ReVanced/revanced-patcher/tree/main/docs) contains the fundamentals
-of ReVanced Patcher and how to use ReVanced Patcher to create patches
 * [Our backlog](https://github.com/orgs/ReVanced/projects/12) is where we keep track of what we're working on
-* [Issues](https://github.com/ReVanced/revanced-patches/issues) are where we keep track of bugs and feature requests
+* [Issues](https://github.com/ReVanced/revanced-patches-template/issues) are where we keep track of bugs and feature requests
 
 ## 🙏 Submitting a feature request
 
 Features can be requested by opening an issue using the
-[Feature request issue template](https://github.com/ReVanced/revanced-patches/issues/new?assignees=&labels=Feature+request&projects=&template=feature_request.yml&title=feat%3A+).
+[Feature request issue template](https://github.com/ReVanced/revanced-patches-template/issues/new?assignees=&labels=Feature+request&projects=&template=feature_request.yml&title=feat%3A+).
 
 > **Note**
-> Requests can be accepted or rejected at the discretion of maintainers of ReVanced Patches.
+> Requests can be accepted or rejected at the discretion of maintainers of ReVanced Patches template.
 > Good motivation has to be provided for a request to be accepted.
 
 ## 🐞 Submitting a bug report
 
-If you encounter a bug while using ReVanced Patches, open an issue using the
-[Bug report issue template](https://github.com/ReVanced/revanced-patches/issues/new?assignees=&labels=Bug+report&projects=&template=bug_report.yml&title=bug%3A+).
-
-## 🌐 Submitting translations
-
- You can contribute translations at [translate.revanced.app](https://translate.revanced.app).
-
-## 🧑‍⚖️ Guidelines for requesting or contributing patches
-
-To maintain a high-quality and ethical collection of patches, the following guidelines for requesting
-or contributing patches are effective as of September 14, 2023. Any patches present prior to this date 
-are unaffected by this change.
-
-> **Note**
-> We generally adhere to the guidelines outlined below. However, we may make exceptions
-> in specific cases based on our discretion. Pull requests for patches that deviate from the guidelines
-> will be evaluated individually. While a patch may not align with our general guidelines,
-> we will consider its acceptance on a case-by-case basis, taking into account its impact on user experience
-> and ethical considerations. We reserve the right to make exceptions for patches that provide significant value.
-
-✅ Examples for acceptable patches include:
-
-* Customizations: Feel free to contribute patches that allow users to personalize their experience
-* Ad-Blocking: Patches aimed at enhancing user privacy and blocking intrusive advertisements are appreciated
-* Feature additions: Patches that add new features or change behaviour to the app are welcome
-
-❌ Examples for unacceptable patches include:
-
-* Payment circumvention: We do not accept patches that exist solely to bypass payment for the app or any of its features
-* Malicious patches: Patches that are malicious in nature are not allowed
+If you encounter a bug while using ReVanced Patches template, open an issue using the
+[Bug report issue template](https://github.com/ReVanced/revanced-patches-template/issues/new?assignees=&labels=Bug+report&projects=&template=bug_report.yml&title=bug%3A+).
 
 ## 📝 How to contribute
 
 1. Before contributing, it is recommended to open an issue to discuss your change
-with the maintainers of ReVanced Patches. This will help you determine whether your change is acceptable
+with the maintainers of ReVanced Patches template. This will help you determine whether your change is acceptable
 and whether it is worth your time to implement it
 2. Development happens on the `dev` branch. Fork the repository and create your branch from `dev`
-3. Commit your changes. In case you are contributing a new patch, make sure to follow the conventions for patches
-described in the [ReVanced Patcher documentation](https://github.com/ReVanced/revanced-patcher/tree/main/docs)
+3. Commit your changes
 4. Submit a pull request to the `dev` branch of the repository and reference issues
 that your pull request closes in the description of your pull request
 5. Our team will review your pull request and provide feedback. Once your pull request is approved,
-it will be merged into the `dev` branch and will be included in the next release of ReVanced Patches
- 
-❤️ Thank you for considering contributing to ReVanced Patches,
+it will be merged into the `dev` branch and will be included in the next release of ReVanced Patches template
+
+❤️ Thank you for considering contributing to ReVanced Patches template,  
 ReVanced
