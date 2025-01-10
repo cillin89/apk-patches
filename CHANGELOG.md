@@ -1,3 +1,11 @@
+## [4.15.1](https://github.com/lennyRBLX/apk-patches/compare/v4.15.0...v4.15.1) (2025-01-10)
+
+
+### Bug Fixes
+
+* MacroFactor Logins ([e70dc59](https://github.com/lennyRBLX/apk-patches/commit/e70dc593846d4b9612c7082c49bd9df7f5547a4c)), closes [#2](https://github.com/lennyRBLX/apk-patches/issues/2)
+* MacroFactor Logins ([e668724](https://github.com/lennyRBLX/apk-patches/commit/e668724f0bcd7c87107ef3db0f4064f64e2b489a))
+
 ## [1.0.4](https://github.com/ReVanced/revanced-patches-template/compare/v1.0.3...v1.0.4) (2024-11-05)
 
 ## [1.0.4-dev.2](https://github.com/ReVanced/revanced-patches-template/compare/v1.0.4-dev.1...v1.0.4-dev.2) (2024-11-05)
