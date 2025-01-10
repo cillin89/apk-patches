@@ -1,3 +1,13 @@
+## [1.0.4](https://github.com/lennyRBLX/apk-patches/compare/v1.0.3...v1.0.4) (2025-01-10)
+
+
+### Bug Fixes
+
+* MacroFactor Logins ([3c1935d](https://github.com/lennyRBLX/apk-patches/commit/3c1935d42086eac76e47b0bf86f83ec32aa1a44e))
+* MacroFactor Logins ([70da063](https://github.com/lennyRBLX/apk-patches/commit/70da0639da0b7e93a30e92e2688824c07051c7d2))
+* MacroFactor Logins ([e70dc59](https://github.com/lennyRBLX/apk-patches/commit/e70dc593846d4b9612c7082c49bd9df7f5547a4c)), closes [#2](https://github.com/lennyRBLX/apk-patches/issues/2)
+* MacroFactor Logins ([e668724](https://github.com/lennyRBLX/apk-patches/commit/e668724f0bcd7c87107ef3db0f4064f64e2b489a))
+
 ## [4.15.1](https://github.com/lennyRBLX/apk-patches/compare/v4.15.0...v4.15.1) (2025-01-10)
 
 
