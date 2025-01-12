@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/lennyRBLX/apk-patches/compare/v1.0.4...v1.0.5) (2025-01-12)
+
+
+### Bug Fixes
+
+* MacroFactor data loss ([b1003f2](https://github.com/lennyRBLX/apk-patches/commit/b1003f2ebcb3c7c471b40d7fba96fe524db65fc4))
+
 ## [1.0.4](https://github.com/lennyRBLX/apk-patches/compare/v1.0.3...v1.0.4) (2025-01-10)
 
 
