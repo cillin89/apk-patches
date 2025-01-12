@@ -1,12 +1,10 @@
 package app.revanced.patches.macrofactor.misc.subscription
 
 import app.revanced.patcher.fingerprint
-import com.android.tools.smali.dexlib2.AccessFlags
 
 internal val spoofAndroidCertFingerprint = fingerprint {
-    accessFlags(AccessFlags.PUBLIC, AccessFlags.FINAL)
     custom { methodDef, classDef ->
-        methodDef.name == "zza" && classDef.endsWith("Lcom/google/android/gms/internal/firebase-auth-api/zzaen;")
+        methodDef.name == "getPackageCertificateHashBytes" && classDef.endsWith("Lcom/google/android/gms/common/util/AndroidUtilsLight;")
     }
 }
 

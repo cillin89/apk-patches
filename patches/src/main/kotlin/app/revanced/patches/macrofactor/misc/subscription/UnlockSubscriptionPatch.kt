@@ -1,6 +1,6 @@
 package app.revanced.patches.macrofactor.misc.subscription
 import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
-import app.revanced.patcher.extensions.InstructionExtensions.removeInstruction
+import app.revanced.patcher.extensions.InstructionExtensions.removeInstructions
 import app.revanced.patcher.patch.bytecodePatch
 
 @Suppress("unused")
@@ -11,12 +11,38 @@ val unlockSubscriptionPatch = bytecodePatch(
     compatibleWith("com.sbs.diet")
 
     execute {
-        spoofAndroidCertFingerprint.method.removeInstruction(1)
+        spoofAndroidCertFingerprint.method.removeInstructions(26)
         spoofAndroidCertFingerprint.method.addInstructions(
             0,
             """
-                const-string v0, "72803CE30B7F47E84D86987F451DAF8C7ACCB5A0"
+                const/16 v0, 0x14
+                new-array v0, v0, [B
+                fill-array-data v0, :array_8
                 return-object v0
+            
+                :array_8
+                .array-data 1
+                    0x72t
+                    -0x80t
+                    0x3ct
+                    -0x1dt
+                    0xbt
+                    0x7ft
+                    0x47t
+                    -0x18t
+                    0x4dt
+                    -0x7at
+                    -0x68t
+                    0x7ft
+                    0x45t
+                    0x1dt
+                    -0x51t
+                    -0x74t
+                    0x7at
+                    -0x34t
+                    -0x4bt
+                    -0x60t
+                .end array-data
             """
         )
 
