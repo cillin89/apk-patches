@@ -1,3 +1,14 @@
+# 1.0.0 (2025-03-14)
+
+
+### Bug Fixes
+
+* MacroFactor data loss ([b1003f2](https://github.com/cillin89/apk-patches/commit/b1003f2ebcb3c7c471b40d7fba96fe524db65fc4))
+* MacroFactor Logins ([3c1935d](https://github.com/cillin89/apk-patches/commit/3c1935d42086eac76e47b0bf86f83ec32aa1a44e))
+* MacroFactor Logins ([70da063](https://github.com/cillin89/apk-patches/commit/70da0639da0b7e93a30e92e2688824c07051c7d2))
+* MacroFactor Logins ([e70dc59](https://github.com/cillin89/apk-patches/commit/e70dc593846d4b9612c7082c49bd9df7f5547a4c)), closes [#2](https://github.com/cillin89/apk-patches/issues/2)
+* MacroFactor Logins ([e668724](https://github.com/cillin89/apk-patches/commit/e668724f0bcd7c87107ef3db0f4064f64e2b489a))
+
 ## [1.0.5](https://github.com/lennyRBLX/apk-patches/compare/v1.0.4...v1.0.5) (2025-01-12)
 
 
